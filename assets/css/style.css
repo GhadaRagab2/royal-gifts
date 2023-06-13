@@ -10388,7 +10388,12 @@ img.mfp-img {
     padding: 0 20px;
 }
 
+p {
+    line-height: 2;
+}
+
 .main-menu-area ul>li>a {
+    color: #eee;
     display: block;
     font-size: 16px;
     font-weight: 500;
@@ -13682,6 +13687,11 @@ only screen and (max-width: 767px) {
 
 .testimonial-inner .test-author {
     margin-top: 20px;
+}
+
+.test-cont,
+.test-author h5 {
+    color: #eee;
 }
 
 .test-cont {
